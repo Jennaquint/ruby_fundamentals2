@@ -27,3 +27,11 @@ puts students
 #Question 5
 students.delete(:cohort2)
 puts students
+
+#Question 6
+total_students = 0
+students.values.each do |values| 
+  total_students += values
+end
+
+puts total_students
