@@ -25,4 +25,5 @@ end
 puts students
 
 #Question 5
-ppppp
+students.delete(:cohort2)
+puts students
